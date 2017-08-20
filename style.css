@@ -37,17 +37,22 @@ a {
 }
 .content {
 position: relative;
-top: 80px;
+display: flex;
+padding-top: 116px;
+margin-bottom: 78px;
 }
 .column-large {
   width: 630px;
   border: 1px solid black;
+  flex-direction: column;
 }
 .column-medium {
-  300px;
+  width: 300px;
   border: 1px solid black;
+  flex-direction: column;
 }
 .column-small {
   width: 240px;
   border: 1px solid black;
+  flex-direction: column;
 }
