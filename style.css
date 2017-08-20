@@ -35,15 +35,19 @@ nav span {
 a {
   color: black;
 }
-.column.large {
+.content {
+position: relative;
+top: 80px;
+}
+.column-large {
   width: 630px;
   border: 1px solid black;
 }
-.column.medium {
+.column-medium {
   300px;
   border: 1px solid black;
 }
-.column.small {
+.column-small {
   width: 240px;
   border: 1px solid black;
 }
